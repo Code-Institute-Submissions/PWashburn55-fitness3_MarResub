@@ -306,7 +306,11 @@ input[name='q']::placeholder {
 }
 
 .logo-shop {
-    padding-top: 175px;
+    padding-top: 140px;
+}
+
+.product-container {
+    margin-top: 50px;
 }
 
 header {
