@@ -1,1 +1,1 @@
-web: gunicorn fitness3.wsgi:application --log-file - --log-level debug
+web: gunicorn fitness.wsgi:application --log-file - --log-level debug
