@@ -291,12 +291,7 @@ input[name='q']::placeholder {
 
 .home-img {
   background: url('/static/images/shutterstock_788222044.jpg') no-repeat center center fixed;
-    /*width: 90% !important;
-    max-width: 100%;
-    padding-top: 350px;
-    height: auto;
-    position: center;*/
-  background-size: cover; /* or contain depending on what you want */
+  background-size: cover; 
   background-position: center center;
   background-repeat: no-repeat;
   vertical-align: bottom;
@@ -311,7 +306,7 @@ input[name='q']::placeholder {
 }
 
 .logo-shop {
-    padding-top: 200px;
+    padding-top: 175px;
 }
 
 header {
