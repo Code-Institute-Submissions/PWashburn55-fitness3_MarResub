@@ -1,0 +1,52 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "000001",
+      "name": "Resistance Bands",
+      "description": "Work your main muscle groups in both the upper and lower body with these lightweight but surprisingly challenging resistance bands - perfect for working out at home or on the road.",
+      "price": 15.9,
+      "shipping": 4.95,
+      "rating": 4.5,
+      "image": "/static/product-images/pexels-anna-shvets-5067749.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "000002",
+      "name": "Hand Weights",
+      "description": "Tone your arms and back with these two-kilogram hand weights. Perfect for home workouts and can also be used in conjunction with toning exercises for the legs and hips.",
+      "price": 24.75,
+      "shipping": 14.95,
+      "rating": 4.6,
+      "image": "/static/product-images/physiotherapy-595529_1280.jpg"
+    }
+  }, {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "000003",
+      "name": "Exercise Mat",
+      "description": "Cushioned, non-stick mat for yoga, pilates, and abdominal exercises measuring 150 cm by 60 cm and 2 cm thick. Rolls up easily for storage.",
+      "price": 32.95,
+      "shipping": 14.95,
+      "rating": 4.7,
+      "image": "/static/product-images/plank-1327256_640.jpg"
+    }
+  }, {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "000004",
+      "name": "Ab Wheel Roller",
+      "description": "Tone your abdominal muscles and build a strong core with this lightweight and durable exercise wheel - no need for expensive gym memberships or time-consuming trips to the gym.",
+      "price": 18.97,
+      "shipping": 10.95,
+      "rating": 4.6,
+      "image": "/static/product-images/shutterstock_1660419688.jpg"
+    }
+  }
+]
