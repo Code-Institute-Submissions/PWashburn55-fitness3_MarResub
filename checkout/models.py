@@ -45,14 +45,7 @@ class Order(models.Model):
         self.delivery_cost = self.order_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
         self.grand_total = self.order_total + self.delivery_cost
         self.save()
-        """
-        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
-        if self.order_total < 0:
-            self.shipping = 0
-        else:
-            self.shipping = .20 * self.order_total
-        self.grand_total = self.order_total + self.shipping
-        self.save() """
+
 
     def save(self, *args, **kwargs):
         """
