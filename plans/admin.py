@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Plan
 
 
-class ProductAdmin(admin.ModelAdmin):
+class PlanAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
         'name',
