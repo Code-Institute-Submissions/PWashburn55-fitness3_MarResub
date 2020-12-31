@@ -71,6 +71,9 @@ Python was used for the backend functionality with Django.
 - Javascript (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 Javascript & JQuery were used for functionalities such as changing the quantity of items, toast pop-ups, and Stripe.
 
+- Bootstrap (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+Bootstrap was the framework used.
+
 - HTML (https://developer.mozilla.org/en-US/docs/Web/HTML)
 HTML was used for the structure of the web pages.
 
@@ -101,7 +104,8 @@ The photos are from Pixabay and Shutterstock and I wrote the text.
 
 ### Acknowledgements
 Thank you to the tutors and my mentor Aaron for all their help and patience and sorry I was so slow.
-The inspiration was from various articles on behavioral research in weight loss.
+The inspiration was from various articles on behavioral research in weight loss and the structure and
+code came from the Boutique Ado project.
 
 
 
