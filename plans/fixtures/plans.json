@@ -5,7 +5,7 @@
     "fields": {
       "sku": "000001",
       "name": "Seven-Minute Workout",
-      "description": "Work all of your main muscle groups with this short routine which can be done from home.",
+      "description": "Work all of your main muscle groups with this short routine which can be done at home.",
       "A": "Jumping Jacks",
       "B": "Wall Sit",
       "C": "Push-ups",
@@ -25,7 +25,7 @@
     "fields": {
       "sku": "000002",
       "name": "Advanced Seven-Minute Workout",
-      "description": "Work your main muscle groups in both the upper and lower body with these lightweight but surprisingly challenging resistance bands - perfect for working out at home or on the road.",
+      "description": "Work your main muscle groups with this more challenging seven-minute home workout.",
       "A": "Jumping Jacks",
       "B": "Reverse lunge with elbow to instep",
       "C": "Lateral bridge-left",
@@ -48,7 +48,7 @@
       "A": "High knees running in place",
       "B": "Jumping Jacks",
       "C": "Squat and jump",
-      "D": "Side-to-side shuffle with lunge",
+      "D": "Side-to-side shuffle with lateral lunge",
       "E": "Run in place with butt kicks",
       "F": "Rest",
       "G": "Run in place with high knees",
@@ -63,7 +63,7 @@
     "fields": {
       "sku": "000004",
       "name": "Eight-Minute Yoga Workout",
-      "description": "Relax and challenge your muscles with this at-home yoga routine.",
+      "description": "Relax and challenge your muscles with this at-home yoga routine (requires some knowledge of yoga).",
       "A": "Chair Pose",
       "B": "Goddess Pose",
       "C": "Knee to Tricep Plank-right",
