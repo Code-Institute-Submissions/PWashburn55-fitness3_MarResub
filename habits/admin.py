@@ -13,5 +13,5 @@ class HabitAdmin(admin.ModelAdmin):
     ordering = ('sku',)
 
 
-admin.site.register(Habit)
+admin.site.register(Habit, HabitAdmin)
 

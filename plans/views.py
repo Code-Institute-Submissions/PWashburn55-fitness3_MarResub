@@ -3,6 +3,7 @@ from .models import Plan
 
 # Create your views here.
 
+
 def all_plans(request):
     """ A view to show all plans, including search queries """
 
