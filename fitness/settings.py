@@ -172,7 +172,7 @@ ROOT_DIR = environ.Path(__file__) - 2
 STATIC_ROOT = str(ROOT_DIR.path(".staticfiles"))
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-STANDARD_DELIVERY_PERCENTAGE = 10
+STANDARD_DELIVERY_PERCENTAGE = 20
 
 # Stripe
 STRIPE_CURRENCY = 'usd'

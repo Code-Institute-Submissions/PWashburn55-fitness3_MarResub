@@ -18,10 +18,10 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
-
+/*
 .logo-font {
     text-transform: uppercase;
-}
+}*/
 
 .main-logo-link {
     width: fit-content;
@@ -301,22 +301,9 @@ input[name='q']::placeholder {
 }
 
 #main-nav {
-    /*z-index: 9999;*/
     opacity: 1 !important;
-}
-
-.logo-shop {
-    padding-top: 140px;
-}
-
-.product-container {
-    margin-top: 50px;
 }
 
 header {
     background-color: white;
 }
-
-/*.fixed-top {
-    background-color: white;
-}*/
