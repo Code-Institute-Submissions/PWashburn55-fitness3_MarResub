@@ -1,7 +1,6 @@
+<!doctype html>
 <!--code from boutique ado project -->
 {% load static %}
-
-<!doctype html>
 <html lang="en">
   <head>
 
@@ -131,6 +130,40 @@
 
     {% block content %}
     {% endblock %}
+
+    <footer>
+    <div class="container-fluid">
+    <div class="row no-gutter">
+        <div class="col-sm-8" >
+            <p class="footer-text">
+                For educational purposes only  
+            </p>
+            </div>
+   <div class="col-sm-4">
+        <ul class="list-inline social-links">
+            <li class="list-inline-item">
+                <a target="_blank" href="#">
+                    <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="#">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+            </li>
+             <li class="list-inline-item">
+                <a target="_blank" href="#">
+                    <i class="fab fa-youtube-square" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+</footer> 
 
     {% block postloadjs %}
     <script type="text/javascript">

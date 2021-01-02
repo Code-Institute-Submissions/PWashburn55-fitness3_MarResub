@@ -303,3 +303,68 @@ header {
     background-color: white;
 }
 
+/* footer */
+
+body {
+padding-bottom: 120px; /* height of the footer from Stack Overflow to be able to scroll down site*/
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin-bottom: -120px; /*from w3 schools to make margin stick to bottom of page*/
+    padding-bottom: none;
+}    
+
+.footer-text {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.general-sub {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.social-links {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+}
+
+.social-links li a i {
+    width: 25px;
+    height: 25px;
+    padding: 12px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: center;
+    display: table-cell;
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 32px;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.social-links i {
+    text-decoration: none;
+}
+
+.list-inline-item i {
+    text-decoration: none;
+}
+

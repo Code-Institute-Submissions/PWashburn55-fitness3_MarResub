@@ -14,4 +14,3 @@ class HabitAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Habit, HabitAdmin)
-
