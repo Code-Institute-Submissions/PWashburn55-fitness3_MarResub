@@ -9,7 +9,6 @@ def bag_contents(request):
     bag_items = []
     total = 0
     product_count = 0
-    shipping = 0
     bag = request.session.get('bag', {})
 
     for item_id, quantity in bag.items():
