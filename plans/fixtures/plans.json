@@ -55,7 +55,7 @@
       "H": "- Jumping Jacks",
       "I": "- Squat and jump",
       "J": "- Lunges",
-      "rating": 4.8,
+      "rating": 4.8
     }
   },{
     "pk": 4,
@@ -63,7 +63,7 @@
     "fields": {
       "sku": "000004",
       "name": "Eight-Minute Yoga Workout",
-      "description": "Relax and challenge your muscles with this at-home yoga routine (requires some knowledge of yoga). Hold each of these poses for 30-45 seconds.",
+      "description": "Relax and challenge your muscles with this at-home yoga routine (requires prior knowledge of yoga). Hold each of these poses for 30-45 seconds.",
       "A": "- Chair Pose",
       "B": "- Goddess Pose",
       "C": "- Knee to Tricep Plank-right",
