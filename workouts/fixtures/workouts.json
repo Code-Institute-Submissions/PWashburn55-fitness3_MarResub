@@ -1,0 +1,86 @@
+[
+  {
+    "pk": 101,
+    "model": "workouts.workout",
+    "fields": {
+    "sku": "000101",
+    "name": "Seven-Minute Workout",
+    "description": "Work all of your main muscle groups with this short routine which can be done at home. Do each of these exercises for 30-45 seconds and finish with a few stretches if time permits.",
+    "one": "1. Jumping Jacks",
+    "two": "2. Wall sit",
+    "three": "3. Push-ups",
+    "four": "4. Abdominal crunch",
+    "five": "5. Step-up onto chair",
+    "six": "6. Squat",
+    "seven": "7. Triceps dip on chair",
+    "eight": "8. Plank and side plank",
+    "nine": "9. High knees running in place",
+    "ten": "10. Lunges",
+    "image": "/static/workout-images/shutterstock_1700797540.jpg",
+    "rating": 4.5
+    }
+  },
+  {
+    "pk": 102,
+    "model": "workouts.workout",
+    "fields": {
+    "sku": "000102",
+    "name": "Advanced Seven-Minute Workout",
+    "description": "Work your main muscle groups with this more challenging seven-minute home workout. Do each of these exercises for 30-45 seconds and finish with a few stretches if time permits.",
+    "one": "1. Jumping Jacks",
+    "two": "2. Reverse lunge with elbow to instep",
+    "three": "3. Lateral bridge left and right",
+    "four": "4. Push-up to burpee",
+    "five": "5. Abdominal crunch",
+    "six": "6. Single-leg squat-left",
+    "seven": "7. Single-leg squat-right",
+    "eight": "8. Plank with straight arms",
+    "nine": "9. High knees running in place",
+    "ten": "10. Side lunges",
+    "image": "/static/workout-images/jonathan-borba-IrQPTQs7nQQ-unsplash.jpg",
+    "rating": 4.6
+    }
+  },
+    {
+    "pk": 103,
+    "model": "workouts.workout",
+    "fields": {
+    "sku": "000103",
+    "name": "Ten-Minute Cardio Workout",
+    "description": "Get your heart rate up with a quick at-home cardio workout. Do each of these exercises for about 60 seconds and finish with a few stretches if time permits.",
+    "one": "1. Jumping Jacks",
+    "two": "2. High knees running in place",
+    "three": "3. Squat and jump",
+    "four": "4. Side-to-side shuffle with lateral lunge",
+    "five": "5. Run in place with butt kicks",
+    "six": "6. Rest",
+    "seven": "7. Jumping Jacks",
+    "eight": "8. High knees running in place",
+    "nine": "9. Squat and jump",
+    "ten": "10. Walking lunges",
+    "image": "/static/workout-images/shutterstock_1766378603.jpg",
+    "rating": 4.7
+    }
+  },
+  {
+    "pk": 104,
+    "model": "workouts.workout",
+    "fields": {
+    "sku": "000104",
+    "name": "Eight-Minute Yoga Workout",
+    "description": "Relax and challenge your muscles with this at-home yoga routine (requires some knowledge of yoga). Hold each of these poses for 30-45 seconds.",
+    "one": "1. Chair Pose",
+    "two": "2. Goddess Pose",
+    "three": "3. Knee to Tricep Plank-right",
+    "four": "4. Knee to Tricep Plank-left",
+    "five": "5. Side Plank-right",
+    "six": "6. Side Plank-left",
+    "seven": "7. Warrior Pose",
+    "eight": "8. Boat Pose",
+    "nine": "9. Wheel Pose",
+    "ten": "10. Extended Locust",
+    "image": "/static/workout-images/minna-hamalainen-H1COmZ4LULc-unsplash.jpg",
+    "rating": 4.8
+    }
+  }
+]

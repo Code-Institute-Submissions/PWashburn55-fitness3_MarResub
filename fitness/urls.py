@@ -30,5 +30,5 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('plans/', include('plans.urls')),
     path('habits/', include('habits.urls')),
-    path('points/', include('points.urls')),
+    path('workouts/', include('workouts.urls')),
 ]

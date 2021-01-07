@@ -27,7 +27,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", [])
+# ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", [])
 ALLOWED_HOSTS = ['fitness-that-fits.herokuapp.com', 'localhost']
 
 
@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'profiles',
     'plans',
     'habits',
-    'points',
+    'workouts',
 
     # Other
     'crispy_forms',

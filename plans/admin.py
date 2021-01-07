@@ -16,7 +16,9 @@ class PlanAdmin(admin.ModelAdmin):
         'G',
         'H',
         'I',
+        'J',
         'rating',
+        'image'
     )
 
     order = ('sku',)

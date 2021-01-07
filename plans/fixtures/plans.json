@@ -16,7 +16,8 @@
       "H": "- Plank and side plank",
       "I": "- High knees running in place",
       "J": "- Lunges",
-      "rating": 4.5
+      "rating": 4.5,
+      "image": "/static/plan-images/shutterstock_1700797540.jpg"
     }
   },
 {
@@ -36,7 +37,8 @@
       "H": "- Plank with straight arms",
       "I": "- Side lunges",
       "J": "- High knees running in place",
-      "rating": 4.7
+      "rating": 4.7,
+      "image": "/static/plan-images/jonathan-borba-lrQPTQs7nQQ-unsplash.jpg"
     }
   }, {
     "pk": 3,
@@ -55,7 +57,8 @@
       "H": "- Jumping Jacks",
       "I": "- Squat and jump",
       "J": "- Lunges",
-      "rating": 4.8
+      "rating": 4.8,
+      "image": "/static/plan-images/shutterstock_1766378603.jpg"
     }
   },{
     "pk": 4,
@@ -74,7 +77,8 @@
       "H": "- Boat Pose",
       "I": "- Wheel Pose",
       "J": "- Extended Locust",
-      "rating": 4.6
+      "rating": 4.6,
+      "image": "/static/plan-images/minna-hamalainen-H1COmZ4LULc-unsplash.jpg"
     }
   }
 ]
