@@ -10,8 +10,9 @@ from .forms import ProductForm
 
 
 def all_products(request):
+    return render(request, 'products/products.html')
     """ A view to show all products, including sorting and search queries """
-
+"""
     products = Product.objects.all()
     query = None
     sort = None
@@ -49,6 +50,8 @@ def all_products(request):
     }
 
     return render(request, 'products/products.html', context)
+    """
+        
 
 
 def product_detail(request, product_id):
