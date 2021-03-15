@@ -10,7 +10,9 @@ from .forms import ProductForm
 
 
 def all_products(request):
-    return render(request, 'products/products.html')
+    products = Product.objects.all() 
+    context = {'products': products}
+    return render(request, 'products/products.html', context = context)
     """ A view to show all products, including sorting and search queries """
 """
     products = Product.objects.all()

@@ -7,7 +7,8 @@ from itertools import chain
 
 
 def all_search(request):
-    """ A view to show the search query """
+    """ A view to show the search query from boutique ado, 
+    coding for entrepreneurs & stack overflow """
     query = ""
     if request.GET:
         if 'q' in request.GET:
