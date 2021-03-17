@@ -5,7 +5,7 @@
     https://stripe.com/docs/stripe-js
 */
 
-var stripePublicKey = 'pk_test_51I3T8lC8GFyES0a5xhfK8De5brxKpCDNoTMlisiIrhF7h4XwiUOcwwIK0KW3cQG5YtLEpTOwQld18mmVlYjkuiHB00FyyajREl'
+var stripePublicKey = 'pk_test_51HrKP3IdSEiXg0W30naU5GlCSFLui17Cu8Ci3pms11WXg0RNu8h3UwwH4aO42qweulLpH2yotvZ1jWq5JMAKEB2t00jfZXMQaT'
 /* var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);*/
 var clientSecret = $('#id_client_secret').text().slice(1, -1);
 var stripe = Stripe(stripePublicKey);
