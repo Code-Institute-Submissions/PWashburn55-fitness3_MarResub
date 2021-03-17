@@ -6,10 +6,11 @@
 */
 
 var stripePublicKey = 'pk_test_51I3T8lC8GFyES0a5xhfK8De5brxKpCDNoTMlisiIrhF7h4XwiUOcwwIK0KW3cQG5YtLEpTOwQld18mmVlYjkuiHB00FyyajREl'
+/* var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);*/
 var clientSecret = $('#id_client_secret').text().slice(1, -1);
 var stripe = Stripe(stripePublicKey);
 var elements = stripe.elements();
-var style = {
+var style = 
     base: {
         color: '#000',
         fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
