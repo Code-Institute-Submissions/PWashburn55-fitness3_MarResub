@@ -33,7 +33,7 @@ urlpatterns = [
     path('habits/', include('habits.urls')),
     path('workouts/', include('workouts.urls')),
     path('search/', include('search.urls')),
-    url(r'^media/(?P<path>.*)$', serve,{'document_root': settings.MEDIA_ROOT}), 
+    # url(r'^media/(?P<path>.*)$', serve,{'document_root': settings.MEDIA_ROOT}), 
      # to make static files visible 
     # url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
 ]
