@@ -33,4 +33,4 @@ urlpatterns = [
     path('habits/', include('habits.urls')),
     path('workouts/', include('workouts.urls')),
     path('search/', include('search.urls'))
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

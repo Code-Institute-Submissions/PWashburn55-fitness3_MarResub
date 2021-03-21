@@ -18,9 +18,9 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
-/*
+
 .logo-font {
-    text-transform: uppercase;
+    font-family: Chango;
 }*/
 
 .main-logo-link {
@@ -285,7 +285,6 @@ input[name='q']::placeholder {
 }
 
 .home-img {
-  /*background: url('/static/images/shutterstock_788222044.jpg') no-repeat center center fixed;*/
   background: url('/static/images/788222044-huge.jpg') no-repeat center center fixed;
   background-size: cover; 
   background-position: center center;
