@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'django_extensions',
     'home',
     'products',
     'bag',
@@ -53,6 +54,7 @@ INSTALLED_APPS = [
     'habits',
     'workouts',
     'search',
+    'autocomplete',
 
     # Other
     'crispy_forms',

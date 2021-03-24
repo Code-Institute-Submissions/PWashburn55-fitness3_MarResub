@@ -28,7 +28,7 @@
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2"></div>
                 <div class="row">
-                    {% for result in results %}
+                    {% for result in products %}
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
                                 {% if result.image %}
@@ -57,12 +57,91 @@
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
                                             {% if request.user.is_superuser %}
-                                                <small class="ml-3">
-                                                    <a href="{% url 'edit_result' product.id %}">Edit</a> | 
-                                                    <a class="text-danger" href="{% url 'delete_result' result.id %}">Delete</a>
-                                                </small>
+                                                    <small class="ml-3">
+                                                        <a href="{% url 'edit_product' result.id %}">Edit</a> | 
+                                                        <a class="text-danger" href="{% url 'delete_product' result.id %}">Delete</a>
+                                                    </small>
                                             {% endif %}
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="row">
+                    {% for result in habits %}
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="card h-100 border-0">
+                                {% if result.image %}
+                                <a href="{% url 'search' %} ">
+                                    <img class="card-img-top img-fluid" src="{{ result.image }}" alt="{{ result.name }}">
+                                </a>
+                                {% else %}
+                                <a href=" ">
+                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ result.name }}">
+                                </a>
+                                {% endif %}
+                                <div class="card-body pb-0">
+                                    <p class="mb-0">{{ result.name }}</p>
+                                </div>
+                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                                    <div class="row">
+                                        <div class="col">
+                                             {% if result.price %}
+                                            <p class="lead mb-0 text-left font-weight-bold">${{ result.price }}</p>
+                                            {% else %}
+                                             - 
+                                            {% endif %}
+                                            {% if result.rating %}
+                                                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ result.rating }} / 5</small>
+                                            {% else %}
+                                                <small class="text-muted">No Rating</small>
+                                            {% endif %}
+                                            {% if request.user.is_superuser %}
+                                                    <small class="ml-3">
+                                                        <a href="{% url 'edit_habit' result.id %}">Edit</a> | 
+                                                        <a class="text-danger" href="{% url 'delete_habit' result.id %}">Delete</a>
+                                                    </small>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="row">
+                    {% for result in plans %}
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="card h-100 border-0">
+                                {% if result.image %}
+                                <a href="{% url 'search' %} ">
+                                    <img class="card-img-top img-fluid" src="{{ result.image }}" alt="{{ result.name }}">
+                                </a>
+                                {% else %}
+                                <a href=" ">
+                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ result.name }}">
+                                </a>
+                                {% endif %}
+                                <div class="card-body pb-0">
+                                    <p class="mb-0">{{ result.name }}</p>
+                                </div>
+                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                                    <div class="row">
+                                        <div class="col">
+                                             {% if result.price %}
+                                            <p class="lead mb-0 text-left font-weight-bold">${{ result.price }}</p>
+                                            {% else %}
+                                             - 
+                                            {% endif %}
+                                            {% if result.rating %}
+                                                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ result.rating }} / 5</small>
+                                            {% else %}
+                                                <small class="text-muted">No Rating</small>
+                                            {% endif %}
+                                            
+                                       </div>
                                     </div>
                                 </div>
                             </div>

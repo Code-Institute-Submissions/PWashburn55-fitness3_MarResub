@@ -1,4 +1,9 @@
 from django.shortcuts import render, get_object_or_404
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.db.models import Q
+from django.db.models.functions import Lower
+
 from .models import Habit
 from .forms import HabitForm
 
@@ -28,7 +33,7 @@ def habit_detail(request, habit_id):
 
 
 @login_required
-def add_habitrequest):
+def add_habit(request):
     """ Add a new habit """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
