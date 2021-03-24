@@ -57,7 +57,7 @@ def all_search(request):
             results = results.filter(queries) """
 
     current_sorting = f'{sort}_{direction}'
-ß
+
     context = {
         #ßresults': results,
         'products': products,

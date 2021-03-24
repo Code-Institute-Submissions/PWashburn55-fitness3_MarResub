@@ -16,11 +16,6 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3 logo-shop">
-               <!----<h2 class="logo-font">Shop</h2>
-                <div>
-                <p>Change up your workouts and challenge yourself with our great workout gear. 
-                </p>
-                </div>-->
                 <hr class="w-50 mb-1">
             </div>
         </div>
@@ -32,7 +27,8 @@
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
                                 {% if result.image %}
-                                <a href="{% url 'search' %} ">
+                                <!--<a href="{% url 'product_detail' product.id %} "></a>-->
+                               <a href="{% url 'search' %} ">
                                     <img class="card-img-top img-fluid" src="{{ result.image }}" alt="{{ result.name }}">
                                 </a>
                                 {% else %}
@@ -98,12 +94,12 @@
                                             {% else %}
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
-                                            {% if request.user.is_superuser %}
+                                          <!---  {% if request.user.is_superuser %}
                                                     <small class="ml-3">
                                                         <a href="{% url 'edit_habit' result.id %}">Edit</a> | 
                                                         <a class="text-danger" href="{% url 'delete_habit' result.id %}">Delete</a>
                                                     </small>
-                                            {% endif %}
+                                            {% endif %}--->
                                         </div>
                                     </div>
                                 </div>

@@ -1,0 +1,7 @@
+search_qs = MODEL.objects.filter(name__startswith=q)
+
+
+products_qs = Product.objects.filter(name__startswith=q)
+plans_qs = Plan.objects.filter(name__startswith=q)
+habits_qs = Habit.objects.filter(name__startswith=q)
+search_qs = chain(products_qs, plans_qs, habits_qs)
