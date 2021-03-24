@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
@@ -91,7 +91,7 @@ def edit_habit(request, habit_id):
 
 @login_required
 def delete_habit(request, habit_id):
-    """ Delete a habit from the store """
+    """ Delete a habit  """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))

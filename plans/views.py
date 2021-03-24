@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from .models import Plan
 from django.db.models import Q
 from django.db.models.functions import Lower
@@ -6,8 +6,6 @@ from django.db.models.functions import Lower
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
-
-from .models import Plan
 from .forms import PlanForm
 
 
@@ -89,10 +87,10 @@ def add_plan(request):
         form = PlanForm(request.POST, request.FILES)
         if form.is_valid():
             plan = form.save()
-            messages.success(request, 'Successfully added plan')
+            messages.success(request, 'Successfully added workout plan')
             return redirect(reverse('plan_detail', args=[plan.id]))
         else:
-            messages.error(request, 'Failed to add habit.'
+            messages.error(request, 'Failed to add workout.'
                            'Please ensure the form is valid.')
     else:
         form = PlanForm()
@@ -112,7 +110,7 @@ def edit_plan(request, plan_id):
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
 
-    habit = get_object_or_404(Plan, pk=plan_id)
+    plan = get_object_or_404(Plan, pk=plan_id)
     if request.method == 'POST':
         form = PlanForm(request.POST, request.FILES, instance=plan)
         if form.is_valid():
@@ -120,10 +118,10 @@ def edit_plan(request, plan_id):
             messages.success(request, 'Successfully updated workout!')
             return redirect(reverse('plan_detail', args=[plan.id]))
         else:
-            messages.error(request, 'Failed to update habit.'
+            messages.error(request, 'Failed to update workout plan.'
                            'Please ensure the form is valid.')
     else:
-        form = PlanForm(instance=habit)
+        form = PlanForm(instance=plan)
         messages.info(request, f'You are editing {plan.name}')
 
     template = 'plans/edit_plan.html'
@@ -136,15 +134,15 @@ def edit_plan(request, plan_id):
 
 
 @login_required
-def delete_plan(request, habit_id):
-    """ Delete a habit from the store """
+def delete_plan(request, plan_id):
+    """ Delete a workout plan """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
 
     plan= get_object_or_404(Plan, pk=plan_id)
-    habit.delete()
-    messages.success(request, 'Habit deleted!')
-    return redirect(reverse('habits'))
+    plan.delete()
+    messages.success(request, 'Workout plan deleted!')
+    return redirect(reverse('plans'))
 
 

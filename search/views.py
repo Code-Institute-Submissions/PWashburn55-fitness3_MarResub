@@ -59,7 +59,7 @@ def all_search(request):
     current_sorting = f'{sort}_{direction}'
 
     context = {
-        #ßresults': results,
+        # results': results,
         'products': products,
         'habits': habits,
         'plans': plans,
@@ -69,4 +69,5 @@ def all_search(request):
 
 
     return render(request, 'search/search_results.html', context)
+
 
