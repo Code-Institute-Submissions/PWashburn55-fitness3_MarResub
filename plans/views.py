@@ -140,7 +140,7 @@ def delete_plan(request, plan_id):
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
 
-    plan= get_object_or_404(Plan, pk=plan_id)
+    plan = get_object_or_404(Plan, pk=plan_id)
     plan.delete()
     messages.success(request, 'Workout plan deleted!')
     return redirect(reverse('plans'))
