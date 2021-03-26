@@ -41,7 +41,9 @@
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0">
+                                    <a href="{% url 'habit_detail' habit.id %}" style="color:black">
                                     <p class="mb-0">{{ habit.name }}</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>

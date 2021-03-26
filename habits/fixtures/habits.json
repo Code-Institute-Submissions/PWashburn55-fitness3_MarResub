@@ -16,7 +16,7 @@
       "sku": "000002",
       "name": "Walking and Running",
       "description": "Walking or running for a total of 20-30 minutes each day helps keep your heart healthy and it's fine to do shorter sessions throughout the day.",
-      "image": "/static/habit-images/shutterstock_141950908.jpg"
+      "image": "/static/habit-images/shutterstock_141950908-min.jpg"
     }
   }, {
     "pk": 3,
@@ -25,7 +25,7 @@
       "sku": "000003",
       "name": "Vegetables",
       "description": "If you're not already getting your five servings of vegetables per day start out adding a few servings of broccoli or other green vegetables each week.",
-      "image": "/static/habit-images/steam-1269716_1920.jpg"
+      "image": "/static/habit-images/steam-1269716_1920-min.jpg"
     }
   }, {
     "pk": 4,
@@ -34,7 +34,7 @@
       "sku": "000004",
       "name": "Salmon and Omega-3s",
       "description": "One or two servings of salmon or other sources of omega-3 fats offers many health benefits.",
-      "image": "/static/habit-images/salmon-518032_640.jpg"
+      "image": "/static/habit-images/salmon-518032_640-min.jpg"
     }
   },
   {
@@ -54,7 +54,7 @@
       "sku": "000006",
       "name": "Legumes",
       "description": "Legumes such as peas and beans are excellent sources of protein and fiber. Add a few servings to your meals per week.",
-      "image": "/static/habit-images/salad-1786327_640.jpg"
+      "image": "/static/habit-images/salad-1786327_640-min.jpg"
     }
   },
   {
@@ -64,7 +64,7 @@
       "sku": "000007",
       "name": "Calcium",
       "description": "Maintain strong bones for life with foods rich in calcium such as milk, cheese, and yogurt or non-dairy sources.",
-      "image": "/static/habit-images/milk-1385548_1920.jpg"
+      "image": "/static/habit-images/milk-1385548_1920-min.jpg"
     }
   },
   {

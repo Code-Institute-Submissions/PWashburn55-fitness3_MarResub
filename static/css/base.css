@@ -65,6 +65,17 @@ body {
     color: #000 !important;
 }
 
+.card-body {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.detail-link {
+    text-decoration: none;
+    color: black;
+}
+
 .border-black {
     border: 1px solid black !important;
 }

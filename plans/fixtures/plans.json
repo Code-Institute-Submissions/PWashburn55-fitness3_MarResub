@@ -17,7 +17,7 @@
       "I": "9. High knees running in place",
       "J": "10. Lunges",
       "rating": 4.5,
-      "image": "/static/plan-images/shutterstock_1700797540.jpg"
+      "image": "/static/plan-images/shutterstock_1700797540-min.jpg"
     }
   },
 {
@@ -38,7 +38,7 @@
       "I": "9. Side lunges",
       "J": "10. High knees running in place",
       "rating": 4.7,
-      "image": "/static/plan-images/jonathan-borba-lrQPTQs7nQQ-unsplash.jpg"
+      "image": "/static/plan-images/jonathan-borba-lrQPTQs7nQQ-unsplash-min.jpg"
     }
   }, {
     "pk": 3,
@@ -58,7 +58,7 @@
       "I": "9. Squat and jump",
       "J": "10. Lunges",
       "rating": 4.8,
-      "image": "/static/plan-images/shutterstock_1766378603.jpg"
+      "image": "/static/plan-images/shutterstock_1766378603-min.jpg"
     }
   },{
     "pk": 4,
@@ -78,7 +78,7 @@
       "I": "9. Wheel Pose",
       "J": "10. Extended Locust",
       "rating": 4.6,
-      "image": "/static/plan-images/minna-hamalainen-H1COmZ4LULc-unsplash.jpg"
+      "image": "/static/plan-images/minna-hamalainen-H1COmZ4LULc-unsplash-min.jpg"
     }
   }
 ]
