@@ -51,6 +51,13 @@ exercise plans, and user profiles. The site is designed to address the following
    11) A page for adding new products to the site
    12) A search function for both names and descriptions
 
+### How it works
+
+The site is styled with **Bootstrap** and **CSS** and it uses **Django** and **Python** for most of the functionalities
+such as registering on the site, sending emails, adding items, adding CRUD functionality to the site, and searching. 
+JavaScript was used for interactivity such as the toast pop-ups and the Stripe checkout functionality. Json was used for the data files.
+
+
 ### Features to be implemented later
 
 Future improvements to the site would include adding a forum for users to communicate with other users, 
@@ -63,44 +70,47 @@ with more consistent photographs and other visual improvements and auto-fill wou
 ### Technologies Used
 
 - [Django](https://www.djangoproject.com/) 
-The project uses the Django framework to provide the major capabilities such as dictionaries, 
+The project uses the **Django** framework to provide the major capabilities such as dictionaries, 
 views, search, email, and authentication.
 
 - [Stripe](https://stripe.com/en-gb-se)
-Stripe was used for the payment functionality.
+**Stripe** was used for the payment functionality.
 
 - [Python](https://www.python.org/)
-Python was used for the backend functionality with Django.
+**Python** was used for the backend functionality with Django.
 
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-Javascript was used for functionalities such as changing the quantity of items, toast pop-ups, and Stripe.
+**Javascript** was used for functionalities such as changing the quantity of items, toast pop-ups, and Stripe.
 
 - [JQuery](https://jquery.com/)
-JQuery was used for interactivity on the site.
+**JQuery** was used for interactivity on the site.
+
+- [Json](https://www.json.org/json-en.html)
+**Json** was used for the data for the fixtures.
 
 - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-Bootstrap was the framework used.
+**Bootstrap** was the framework used.
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-HTML was used for the structure of the web pages.
+**HTML** was used for the structure of the web pages.
 
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
-CSS was used for styling the web pages.
+**CSS** was used for styling the web pages.
 
 - [Heroku](https://signup.heroku.com/?c=70130000000NeLCAA0&gclid=EAIaIQobChMIkdW79aL57QIVUBV7Ch3UKQM2EAAYASAAEgJ8BPD_BwE)
-Heroku was used to deploy the web site.
+**Heroku** was used to deploy the web site.
 
 - [Whitenoise](http://whitenoise.evans.io/en/stable/)
-Whitenoise was used (instead of AWS) for the static files.
+**Whitenoise** was used (instead of AWS) for the static files.
 
 - [Github](github.com)
-Github was used for version control.
+**Github** was used for version control.
 
 - [Gitpod](gitpod.io)
-Gitpod was used for the development environment.
+**Gitpod** was used for the development environment.
 
 - [Balsamiq](balsamiq.com)
-The wireframe was created on Balsamiq.
+The wireframe was created on **Balsamiq**.
 
 ### Code
 
@@ -121,15 +131,35 @@ of data, such as numbers instead of characters or vice versa). The email functio
 an order. The ability to add, delete, and edit products was also tested on the site.
  
 ### Deployment
-The site was deployed on Heroku with a pipeline created to the Git repository so that commits to Git are automatically added 
+The site was deployed on **Heroku** with a pipeline created to the Git repository so that commits to Git are automatically added 
 to Heroku. Whitenoise was used for the static files.
 
 ### Media and Content
-The photos are from Pixabay [link to Pixabay](https://pixabay.com/) and Shutterstock [link to Shutterstock](https://shutterstock.com/):
+The photos are from Pixabay [link to Pixabay](https://pixabay.com/) and Shutterstock [link to Shutterstock](https://shutterstock.com/) 
+,Unsplash [link to Unsplash](https://unsplash.com/), and Pexels [link to Pexels](https://www.pexels.com/):
 
 https://www.shutterstock.com/image-photo/smiling-group-diverse-friends-standing-gym-788222044
 
+https://www.pexels.com/photo/focused-aged-man-doing-exercise-with-strap-elastic-5067749/
 
+https://pixabay.com/photos/physiotherapy-weight-training-595529/
+
+https://pixabay.com/photos/plank-fitness-muscular-exercising-1327256/
+
+http://shutterstock.puzzlepix.hu/kep/1660419688
+
+https://unsplash.com/photos/lrQPTQs7nQQ
+
+https://unsplash.com/photos/H1COmZ4LULc
+
+https://www.shutterstock.com/image-photo/training-home-sporty-man-doing-yoga-1700797540
+
+https://www.shutterstock.com/image-photo/asian-male-doing-exercise-home-stay-1766378603
+
+
+### Information
+
+The inspiration for the site came from the following article: (https://www.theactivetimes.com/healthy-living/small-new-years-resolutions/slide-9).
 
 ### Acknowledgements
 Thank you to the tutors and my mentor Aaron for all their help and patience and sorry I was so slow.
