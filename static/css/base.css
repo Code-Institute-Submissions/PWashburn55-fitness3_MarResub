@@ -20,11 +20,20 @@ body {
 }
 
 .logo-font {
-    font-family: Chango;
-}*/
+    font-family: 'Lato';
+}
+
+.fitness-logo {
+    font-family: 'Chango';
+}
+
+h1 {
+    font-family: 'Chango';
+}
 
 .main-logo-link {
     width: fit-content;
+    font-family: 'Lato';
 }
 
 .shop-now-button {
@@ -63,6 +72,7 @@ body {
 
 .text-black {
     color: #000 !important;
+    font-family: 'Lato';
 }
 
 .card-body {
