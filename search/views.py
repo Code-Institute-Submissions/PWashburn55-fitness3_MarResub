@@ -20,7 +20,6 @@ def all_search(request):
             queries = Q(name__icontains=query) | \
                 Q(description__icontains=query)
     products = Product.objects.filter(Q(name__contains=query) | Q(description__contains=query))
-
     habits = Habit.objects.filter(Q(name__contains=query) | Q(description__contains=query))
     plans = Plan.objects.filter(Q(name__contains=query) | Q(description__contains=query))
     results = chain(products, habits, plans)
@@ -67,7 +66,4 @@ def all_search(request):
         'current_sorting': current_sorting,
     }
 
-
     return render(request, 'search/search_results.html', context)
-
-

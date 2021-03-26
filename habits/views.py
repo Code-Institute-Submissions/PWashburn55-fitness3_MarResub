@@ -96,7 +96,7 @@ def delete_habit(request, habit_id):
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
 
-    habit= get_object_or_404(Habit, pk=habit_id)
+    habit = get_object_or_404(Habit, pk=habit_id)
     habit.delete()
     messages.success(request, 'Habit deleted!')
     return redirect(reverse('habits'))

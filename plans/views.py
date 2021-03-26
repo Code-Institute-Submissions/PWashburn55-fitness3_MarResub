@@ -62,19 +62,6 @@ def plan_detail(request, plan_id):
 
     return render(request, 'plans/plan_detail.html', context)
 
-"""
-def all_plans(request):
-     A view to show all plans, including search queries 
-
-    plans = Plan.objects.all()
-
-    context = {
-        'plans': plans,
-    }
-
-    return render(request, 'plans/plans.html', context)
-"""
-
 
 @login_required
 def add_plan(request):
