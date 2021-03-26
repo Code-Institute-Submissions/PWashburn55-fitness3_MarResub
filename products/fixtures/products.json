@@ -9,7 +9,7 @@
       "price": 15.9,
       "shipping": 0.0,
       "rating": 4.5,
-      "image": "/static/product-images/pexels-anna-shvets-5067749.jpg"
+      "image": "/static/product-images/pexels-anna-shvets-5067749-min.jpg"
     }
   },
   {
@@ -22,7 +22,7 @@
       "price": 24.75,
       "shipping": 0.0,
       "rating": 4.6,
-      "image": "/static/product-images/physiotherapy-595529_1280.jpg"
+      "image": "/static/product-images/physiotherapy-595529_1280-min.jpg"
     }
   }, {
     "pk": 3,
@@ -34,7 +34,7 @@
       "price": 32.95,
       "shipping": 0.0,
       "rating": 4.7,
-      "image": "/static/product-images/shutterstock_1700797540.jpg"
+      "image": "/static/product-images/plank-1327256_640-min.jpg"
     }
   }, {
     "pk": 4,

@@ -6,7 +6,7 @@
       "sku": "000001",
       "name": "Water",
       "description": "Make sure you are drinking at least six to eight glasses of water each day for a myriad of health benefits and a healthy alternative to soda.",
-      "image": "/static/habit-images/calm-2315559_1920.jpg"
+      "image": "/static/habit-images/calm-2315559_1920-min-min.jpg"
     }
   },
   {
@@ -44,7 +44,7 @@
       "sku": "000005",
       "name": "Fruit",
       "description": "Make fruit a part of your five a day with your favorite fruits.",
-      "image": "/static/habit-images/fruit-basket-1114060_1920.jpg"
+      "image": "/static/habit-images/fruit-basket-1114060_1920-min.jpg"
     }
   },
    {
@@ -74,7 +74,7 @@
       "sku": "000008",
       "name": "Protein",
       "description": "Include healthy vegetarian and non-vegetarian sources of protein in your diet each day to fuel your workouts and maintain muscle.",
-      "image": "/static/habit-images/egg-sandwich-2761894_1920.jpg"
+      "image": "/static/habit-images/egg-sandwich-2761894_1920-min.jpg"
     }
   }
 ]
